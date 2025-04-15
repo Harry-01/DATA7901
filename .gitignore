@@ -1,0 +1,33 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment folders
+env/
+venv/
+
+# Ignore data files
+*.csv
+*.xlsx
+*.parquet
+
+# Ignore model files
+*.pkl
+*.joblib
+*.h5
+
+# Ignore system/IDE files
+.DS_Store
+.vscode/
+*.swp
+
+# ignore project.ipynb
+project.ipynb
+project copy.ipynb
+
+
+git rm --cached project copy.ipynb
+git rm --cached project.ipynb
